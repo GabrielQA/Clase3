@@ -14,7 +14,7 @@ $suma = array_sum($temp);
 $cant = count($temp);
 
 $resul =  $suma / $cant;
-//echo $resul;
+echo $resul."<br>";
 
 
 //Acomodar el arrays de menor a mayor
@@ -47,9 +47,7 @@ $temp2[] += $me11;
 $temp2[] += $me22;
 $temp2[] += $me33;
 $temp2[] += $me44;
-foreach($temp as $num){
-    echo $num. "<br>";
-}
+
 foreach($temp2 as $num){
    
     echo $num."-";
